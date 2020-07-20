@@ -1,0 +1,22 @@
+
+a {
+  color: #510D0A;
+  &:hover {
+    color: black;
+  }
+}
+
+.container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+h1 {
+	color: #510D0A;
+}
+form {
+	flex-grow: 1;
+}
