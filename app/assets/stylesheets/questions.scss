@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
 
-a {
-  color: #510D0A;
-  &:hover {
-    color: black;
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+
+  &.coach {
+    background-color: lightyellow;
+    p { font-weight: 400; }
   }
 }
 
-.container {
-  display: flex;
-  height: 200px;
-  align-items: center;
-  flex-direction: column;
-  width: 300px;
-  margin: 0 auto;
-}
-h1 {
-	color: #510D0A;
-}
-form {
-	flex-grow: 1;
+cite:before {
+  content: "—"
 }
